@@ -1,0 +1,36 @@
+.country_div {
+    display: flex;
+    margin: 30px auto;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border: solid 0.5px lightgray;
+}
+
+iframe {
+    border-radius: 10px 0 0 10px;
+    min-width: 500px;
+}
+
+.country_div img {
+    margin-top: 30px;
+}
+
+.country_div a {
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+.country_div a:hover {
+    color: gray;
+}
+
+.details_div {
+    max-width: 80%;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.borders_div {
+    display: inline;
+}
